@@ -1,0 +1,22 @@
+{% extends 'bonge/base.html' %}
+{% load static %}
+
+
+{% block content %}
+<div class="col-md-12 col-md-offset-4" style="padding-top: 90px">
+<div class="card mb-10">
+  <img src="{% static 'bonge/images/tenor2.gif' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <center><h5 class="card-title">The category of text is </h5></center>
+    <div class="card text-white bg-primary mb-3" style="max-width: 90rem;">
+  <div class="card-header"></div>
+  <div class="card-body">
+    <center><h1 class="card-title" style="color: #ffff00">{{ context }}</h1></center>
+
+  </div>
+</div>
+  
+</div>
+</div>
+</div>
+{% endblock %}

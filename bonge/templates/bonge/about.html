@@ -1,0 +1,17 @@
+{% extends 'bonge/base.html' %}
+{% load static %}
+
+{% block content %}
+
+</br>
+<div class="col-md-6 col-md-offset-2" style="padding-top: 90px">
+<div class="card mb-6">
+  <img src="{% static 'bonge/images/2.png' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+  	<h5 class="card-title text-primary" >What is project about</h5>
+    <p class="card-text" id="about-project">This is text classification through Natural Language Processing which is Machine Learning for text,
+    where user can input text to classify the category of text like, health, business and so on. For that purpose you can create your own text classification and develop your own text classifier in NLP. For example in your dataset, your classification can be love, hate and jealous, Thank You </p>
+   </div>
+</div>
+
+{% endblock %}

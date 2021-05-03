@@ -1,0 +1,17 @@
+{% extends 'bonge/base.html' %}
+{% block content %}
+
+
+<h1 style="color: red">Sorry, the requesting page is not found</h1>
+<h3 style="color: red"><a class="nav-link" href="{% url 'home' %}">Back to home</a></h3>
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,41 @@
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+
+#navbarText {
+	color: blue;
+	font-weight: bold;
+	border-color: blue;
+}
+
+
+#about-project {
+	color: #ffff00;
+	font-weight: bold;
+	background-color: #ff5300;
+	font-size: 18px;
+
+}
+
+
+#form-header {
+	padding-right: 105px;
+	color: #ffff00;
+	font-weight: bold;
+	background-color: #ff5300;
+
+}
+
+
+#mylist-home {
+	color: #ffff00;
+}
+
+
+#footer {
+	color: #ffff00;
+}
+
